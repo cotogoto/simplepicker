@@ -30,7 +30,7 @@ export const htmlTemplate = `
           <div class="simplepicker-calender">
             <table>
               <thead>
-                <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                <tr><th>日</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th></tr>
               </thead>
               <tbody>
                 ${ repeat('<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>', 6) }
