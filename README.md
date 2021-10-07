@@ -1,9 +1,12 @@
-# simplepicker
+# simplepicker_ja
 
 Simple datetime picker in vanilla javascript.
 This project is mostly based on [material-datetime-picker](https://github.com/ripjar/material-datetime-picker), but
 without it relying on external dependencies like `moment`,
 `rome`, and `materialize`.
+
+## 日本語化
+こちらはsimplepickerの日本語対応を行っております。
 
 ## Installation
 
