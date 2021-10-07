@@ -8,28 +8,28 @@ export const monthTracker: MonthTracker = {
 };
 
 export const months = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December'
+  '1月',
+  '2月',
+  '3月',
+  '4月',
+  '5月',
+  '6月',
+  '7月',
+  '8月',
+  '9月',
+  '10月',
+  '11月',
+  '12月'
 ];
 
 export const days = [
-  'Sunday',
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday'
+  '日',
+  '月',
+  '火',
+  '水',
+  '木',
+  '金',
+  '土'
 ];
 
 function fill<T>(arr: T[], upto: number): T[] {
@@ -129,19 +129,19 @@ const dateEndings = {
 
 export function getDisplayDate(_date) {
   const date = _date.getDate();
-  if (dateEndings.st.indexOf(date) !== -1) {
-    return date + 'st';
-  }
+//   if (dateEndings.st.indexOf(date) !== -1) {
+//     return date + 'st';
+//   }
 
-  if (dateEndings.nd.indexOf(date) !== -1) {
-    return date + 'nd';
-  }
+//   if (dateEndings.nd.indexOf(date) !== -1) {
+//     return date + 'nd';
+//   }
 
-  if (dateEndings.rd.indexOf(date) !== -1) {
-    return date + 'rd';
-  }
+//   if (dateEndings.rd.indexOf(date) !== -1) {
+//     return date + 'rd';
+//   }
 
-  return date + 'th';
+  return date + '日';
 }
 
 export function formatTimeFromInputElement(input: string) {
